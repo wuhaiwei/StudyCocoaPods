@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85540831212A6F0200FAE363 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85540830212A6F0200FAE363 /* AppDelegate.m */; };
-		85540834212A6F0200FAE363 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85540833212A6F0200FAE363 /* ViewController.m */; };
-		85540837212A6F0200FAE363 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85540835212A6F0200FAE363 /* Main.storyboard */; };
 		85540839212A6F0200FAE363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85540838212A6F0200FAE363 /* Assets.xcassets */; };
-		8554083C212A6F0200FAE363 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8554083A212A6F0200FAE363 /* LaunchScreen.storyboard */; };
-		8554083F212A6F0200FAE363 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8554083E212A6F0200FAE363 /* main.m */; };
 		85540849212A6F0200FAE363 /* StudyCocoaPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85540848212A6F0200FAE363 /* StudyCocoaPodsTests.m */; };
 		85540854212A6F0200FAE363 /* StudyCocoaPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85540853212A6F0200FAE363 /* StudyCocoaPodsUITests.m */; };
 		85540863212A6F9C00FAE363 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 85540862212A6F9C00FAE363 /* Man.m */; };
@@ -37,15 +32,8 @@
 
 /* Begin PBXFileReference section */
 		8554082C212A6F0200FAE363 /* StudyCocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyCocoaPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8554082F212A6F0200FAE363 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		85540830212A6F0200FAE363 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		85540832212A6F0200FAE363 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		85540833212A6F0200FAE363 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		85540836212A6F0200FAE363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85540838212A6F0200FAE363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8554083B212A6F0200FAE363 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8554083D212A6F0200FAE363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8554083E212A6F0200FAE363 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85540844212A6F0200FAE363 /* StudyCocoaPodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StudyCocoaPodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85540848212A6F0200FAE363 /* StudyCocoaPodsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyCocoaPodsTests.m; sourceTree = "<group>"; };
 		8554084A212A6F0200FAE363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,17 +92,10 @@
 		8554082E212A6F0200FAE363 /* StudyCocoaPods */ = {
 			isa = PBXGroup;
 			children = (
-				8554082F212A6F0200FAE363 /* AppDelegate.h */,
-				85540830212A6F0200FAE363 /* AppDelegate.m */,
-				85540832212A6F0200FAE363 /* ViewController.h */,
-				85540833212A6F0200FAE363 /* ViewController.m */,
 				85540861212A6F9C00FAE363 /* Man.h */,
 				85540862212A6F9C00FAE363 /* Man.m */,
-				85540835212A6F0200FAE363 /* Main.storyboard */,
 				85540838212A6F0200FAE363 /* Assets.xcassets */,
-				8554083A212A6F0200FAE363 /* LaunchScreen.storyboard */,
 				8554083D212A6F0200FAE363 /* Info.plist */,
-				8554083E212A6F0200FAE363 /* main.m */,
 			);
 			path = StudyCocoaPods;
 			sourceTree = "<group>";
@@ -243,9 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8554083C212A6F0200FAE363 /* LaunchScreen.storyboard in Resources */,
 				85540839212A6F0200FAE363 /* Assets.xcassets in Resources */,
-				85540837212A6F0200FAE363 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +250,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				85540863212A6F9C00FAE363 /* Man.m in Sources */,
-				85540834212A6F0200FAE363 /* ViewController.m in Sources */,
-				8554083F212A6F0200FAE363 /* main.m in Sources */,
-				85540831212A6F0200FAE363 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,25 +283,6 @@
 			targetProxy = 85540850212A6F0200FAE363 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		85540835212A6F0200FAE363 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85540836212A6F0200FAE363 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		8554083A212A6F0200FAE363 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8554083B212A6F0200FAE363 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		85540856212A6F0200FAE363 /* Debug */ = {
