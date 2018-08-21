@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		850466F2212BC5AD006BB91A /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = 850466F1212BC5AD006BB91A /* Woman.m */; };
+		850466F5212BC5CC006BB91A /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 850466F4212BC5CC006BB91A /* People.m */; };
 		85540839212A6F0200FAE363 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85540838212A6F0200FAE363 /* Assets.xcassets */; };
 		85540849212A6F0200FAE363 /* StudyCocoaPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85540848212A6F0200FAE363 /* StudyCocoaPodsTests.m */; };
 		85540854212A6F0200FAE363 /* StudyCocoaPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85540853212A6F0200FAE363 /* StudyCocoaPodsUITests.m */; };
@@ -31,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		850466F0212BC5AD006BB91A /* Woman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Woman.h; sourceTree = "<group>"; };
+		850466F1212BC5AD006BB91A /* Woman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
+		850466F3212BC5CC006BB91A /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		850466F4212BC5CC006BB91A /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 		8554082C212A6F0200FAE363 /* StudyCocoaPods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyCocoaPods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85540838212A6F0200FAE363 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8554083D212A6F0200FAE363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +100,10 @@
 			children = (
 				85540861212A6F9C00FAE363 /* Man.h */,
 				85540862212A6F9C00FAE363 /* Man.m */,
+				850466F0212BC5AD006BB91A /* Woman.h */,
+				850466F1212BC5AD006BB91A /* Woman.m */,
+				850466F3212BC5CC006BB91A /* People.h */,
+				850466F4212BC5CC006BB91A /* People.m */,
 				85540838212A6F0200FAE363 /* Assets.xcassets */,
 				8554083D212A6F0200FAE363 /* Info.plist */,
 			);
@@ -249,6 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				850466F5212BC5CC006BB91A /* People.m in Sources */,
+				850466F2212BC5AD006BB91A /* Woman.m in Sources */,
 				85540863212A6F9C00FAE363 /* Man.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
