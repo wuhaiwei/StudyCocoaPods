@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Man.h"
-#import "Woman.h"
+
 
 @interface People : NSObject
 
