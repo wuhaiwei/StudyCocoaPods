@@ -7,8 +7,6 @@
 //
 
 #import "People.h"
-#import "Woman.h"
-#import "Man.h"
 
 @implementation People
 
