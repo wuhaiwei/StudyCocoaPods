@@ -13,6 +13,10 @@
 		85540849212A6F0200FAE363 /* StudyCocoaPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85540848212A6F0200FAE363 /* StudyCocoaPodsTests.m */; };
 		85540854212A6F0200FAE363 /* StudyCocoaPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85540853212A6F0200FAE363 /* StudyCocoaPodsUITests.m */; };
 		85540863212A6F9C00FAE363 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 85540862212A6F9C00FAE363 /* Man.m */; };
+		85E91E0F212BFB18006785D7 /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E91E0D212BFB18006785D7 /* RootVC.m */; };
+		85E91E10212BFB18006785D7 /* RootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85E91E0E212BFB18006785D7 /* RootVC.xib */; };
+		85E91E13212BFB3B006785D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E91E12212BFB3B006785D7 /* AppDelegate.m */; };
+		85E91E15212BFB40006785D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85E91E14212BFB40006785D7 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		85540855212A6F0200FAE363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85540861212A6F9C00FAE363 /* Man.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
 		85540862212A6F9C00FAE363 /* Man.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		85E91E0C212BFB18006785D7 /* RootVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		85E91E0D212BFB18006785D7 /* RootVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		85E91E0E212BFB18006785D7 /* RootVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootVC.xib; sourceTree = "<group>"; };
+		85E91E11212BFB3B006785D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		85E91E12212BFB3B006785D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		85E91E14212BFB40006785D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,12 +108,8 @@
 		8554082E212A6F0200FAE363 /* StudyCocoaPods */ = {
 			isa = PBXGroup;
 			children = (
-				85540861212A6F9C00FAE363 /* Man.h */,
-				85540862212A6F9C00FAE363 /* Man.m */,
-				850466F0212BC5AD006BB91A /* Woman.h */,
-				850466F1212BC5AD006BB91A /* Woman.m */,
-				850466F3212BC5CC006BB91A /* People.h */,
-				850466F4212BC5CC006BB91A /* People.m */,
+				85E91E0B212BFB02006785D7 /* SupportFiles */,
+				85E91E0A212BFAD5006785D7 /* People */,
 				85540838212A6F0200FAE363 /* Assets.xcassets */,
 				8554083D212A6F0200FAE363 /* Info.plist */,
 			);
@@ -126,6 +132,32 @@
 				85540855212A6F0200FAE363 /* Info.plist */,
 			);
 			path = StudyCocoaPodsUITests;
+			sourceTree = "<group>";
+		};
+		85E91E0A212BFAD5006785D7 /* People */ = {
+			isa = PBXGroup;
+			children = (
+				85540861212A6F9C00FAE363 /* Man.h */,
+				85540862212A6F9C00FAE363 /* Man.m */,
+				850466F0212BC5AD006BB91A /* Woman.h */,
+				850466F1212BC5AD006BB91A /* Woman.m */,
+				850466F3212BC5CC006BB91A /* People.h */,
+				850466F4212BC5CC006BB91A /* People.m */,
+			);
+			path = People;
+			sourceTree = "<group>";
+		};
+		85E91E0B212BFB02006785D7 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				85E91E0C212BFB18006785D7 /* RootVC.h */,
+				85E91E0D212BFB18006785D7 /* RootVC.m */,
+				85E91E0E212BFB18006785D7 /* RootVC.xib */,
+				85E91E11212BFB3B006785D7 /* AppDelegate.h */,
+				85E91E12212BFB3B006785D7 /* AppDelegate.m */,
+				85E91E14212BFB40006785D7 /* main.m */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E91E10212BFB18006785D7 /* RootVC.xib in Resources */,
 				85540839212A6F0200FAE363 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85E91E0F212BFB18006785D7 /* RootVC.m in Sources */,
 				850466F5212BC5CC006BB91A /* People.m in Sources */,
 				850466F2212BC5AD006BB91A /* Woman.m in Sources */,
 				85540863212A6F9C00FAE363 /* Man.m in Sources */,
+				85E91E15212BFB40006785D7 /* main.m in Sources */,
+				85E91E13212BFB3B006785D7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
